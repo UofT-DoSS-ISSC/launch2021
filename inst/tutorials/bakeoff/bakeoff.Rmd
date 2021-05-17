@@ -10,7 +10,7 @@ runtime: shiny_prerendered
 
 ```{r setup, include=FALSE}
 library(learnr)
-# remotes::install_github("apreshill/bakeoff")
+remotes::install_github("apreshill/bakeoff")
 
 library("tidyverse")
 library("bakeoff")
