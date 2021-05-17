@@ -40,7 +40,7 @@ The [Great British Bake Off](https://en.wikipedia.org/wiki/The_Great_British_Bak
 knitr::include_graphics("images/bakeoff-hex.png")
 ```
 
-You can find more information about this package and the functions within it [here](https://bakeoff.netlify.app/reference/index.html). It has been developed by [Alison Presmanes Hill](https://alison.rbind.io/), who is the product manager for data science communication at RStudion. This package is a great example of the kind of mostly just-for-fun project you could develop for yourself this summer. Note that learning how to write a package and functions of this kind would be very transferable to other more 'serious' project as well.
+You can find more information about this package and the functions within it [here](https://bakeoff.netlify.app/reference/index.html). It has been developed by [Alison Presmanes Hill](https://alison.rbind.io/), who is the product manager for data science communication at RStudio. This package is a great example of the kind of mostly just-for-fun project you could develop for yourself this summer. Note that learning how to write a package and functions of this kind would be very transferable to other more 'serious' project as well.
 
 The joined tibbles are the main ones I'd recommend working with today. Click on the name of the dataset to learn more about its variables.
 
@@ -230,7 +230,7 @@ _*If you are doing this activity by yourself after the event, just put in your f
 
 If you want to save your visualization you should be able to right click and choose "Save Image As..." 
 
-Want to share your work? Use hastag #ISSC21, and if you're using Twitter, tag us on @UoftStatSci.
+Want to share your work? Use hashtag #ISSC21, and if you're using Twitter, tag us on @UoftStatSci.
 
 Don’t worry if didn't finish! Come to the [TidyTuesday and Talk tomorrow](https://utoronto.sharepoint.com/sites/ArtSci-STA/ISSC/_layouts/15/Event.aspx?ListGuid=0679786c-8a7e-483c-9ec5-3845602a70e5&ItemId=15) to ask questions, show us what you did or just hang out.
 
@@ -256,7 +256,7 @@ get_constraint <- function(breakout_group_number){
   print(sample(constraints,1))
 }
 
-#### Add your favourite number if you're not doing this in a breakotu room
+#### Add your favourite number if you're not doing this in a breakout room
 get_constraint()
 
 
