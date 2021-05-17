@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 get_constraint <- function(breakout_group_number){
   set.seed(breakout_group_number)
-  constraints = c(str_c("Use the colour ", c("blue", "purple", "orange", "red"), " in a visualization."), 
+  constraints = c(str_c("Use a shade of ", c("blue", "purple", "orange", "red"), " in a visualization."), 
     str_c("Focus on series ", 1:6, " of the show."), 
     "Focus on the age of the contestants.", "Focus on technical ranking.")
   print(sample(constraints,1))
@@ -164,8 +164,8 @@ question("Based on 7 day viewership, which episode was the most popular of serie
 
 ### Modify this viz 
 
-1. Find out which seasons had the most/least signature dishes with __orange__ in the title (instead of chocolate)
-2. Change the colours of the visualization to be dodgerblue and darkorange1    
+1. Find out which series had the most/least signature dishes with __orange__ in the title (instead of chocolate).
+2. Change the colours of the visualization to be `dodgerblue` and `darkorange1`. (Or other more appropriate colours. You can find a list of colour names R recognizes [here](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)).    
 3. Change the title and other text to be appropriate for your new graph.
 
 ```{r viz, exercise = TRUE}
@@ -216,11 +216,11 @@ challenge_results %>%
 Just like cooking and baking competition shows usually have a theme or challenge ingredient for each episode, so to will your group.
 
 ```{r constraint, exercise=TRUE}
-# Add your breakout group number* below and run the code to get your constraints.
+# Add your breakout group number* below and run the code to get your constraint.
 get_constraint()
 ```
 
-*If you are doing this activity by yourself after the event, just put in your favourite number.
+_*If you are doing this activity by yourself after the event, just put in your favourite number._
 
 
 
@@ -250,7 +250,7 @@ library("bakeoff")
 
 get_constraint <- function(breakout_group_number){
   set.seed(breakout_group_number)
-  constraints = c(str_c("Use the colour ", c("blue", "purple", "orange", "red"), " in a visualization."), 
+  constraints = c(str_c("Use a shade of  ", c("blue", "purple", "orange", "red"), " in a visualization."), 
     str_c("Focus on series ", 1:6, " of the show."), 
     "Focus on the age of the contestants.", "Focus on technical ranking.")
   print(sample(constraints,1))
