@@ -1,0 +1,28 @@
+/* Modified from https://github.com/allisonhorst/r-ladies-tunis-2021/blob/5d01677356c4bf65a69c186c64f99b9925c9f581/css/style.css*/
+
+/*
+Colours
+
+#FF7632 orange
+#FFE89E butter
+#205E79 dark teal
+#2BAA9D light teal
+
+*/
+
+
+.tutorialTitle {
+  background-color: #FFE89E;
+}
+
+.topicsList .topic {
+  font-weight: bold;
+  border-left: none;
+  padding-left: 10px;
+  background-color: #FFE89E;
+}
+
+.topicsContainer {
+  background-color: #FFE89E;
+}
+
